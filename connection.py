@@ -8,6 +8,6 @@ try:
         host="localhost",
         port="5432"
     )
-    print("✅ Database connected successfully!")
+    print(" Database connected successfully!")
 except Exception as e:
-    print("❌ Database connection error:", e)
+    print(" Database connection error:", e)
